@@ -12,11 +12,6 @@ public class PilaGenericaTest {
                                                    B
      */
 
-
-
-
-
-
     //Declaramos nuestra Pila generica
     PilaGenerica pilaGenerica = new PilaGenerica<>();
 
@@ -40,11 +35,19 @@ public class PilaGenericaTest {
         pilaGenerica.aniadir(99);
         pilaGenerica.aniadir("Malaga");
 
+        //Probamos el toString
+        System.out.println(pilaGenerica.toString());
+
         Assert.assertEquals("Malaga", pilaGenerica.extraer());
     }
 
 
+    @Test
+    public void primeroTest(){
+        pilaGenerica.aniadir(12);
+        pilaGenerica.aniadir(99);
+        pilaGenerica.aniadir("Malaga");
 
-
-
+        Assert.assertEquals(12, pilaGenerica.getPila().get(pilaGenerica.getPila().size()-1));
+    }
 }

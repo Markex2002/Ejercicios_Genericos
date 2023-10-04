@@ -25,31 +25,39 @@ public class PilaGenerica<T> {
     public boolean estaVacia(){
         boolean resultado = false;
         //Si la lista esta vacia devolveremos true
-        if (pila.size() == 0){
+        if (pila.isEmpty()){
             resultado = true;
         }
         return resultado;
     }
-
-
 
     //Metodo para añadir
     public void aniadir(T o1){
         pila.add(0, o1);
     }
 
-
     //Metodo que extrae el primer valor de la lista y lo devuelve
-    public Object extraer(){
-        Object o1 = pila.get(0);
+    public T extraer(){
+        T o1 = pila.get(0);
         pila.remove(0);
 
         return o1;
     }
 
+    //Como esta coleccion esta basada en Pila, el Primer elemento,
+    // el primero en ser insertado, sera el que este el ultimo en la lista
+    public T primero(){
+        return pila.get(0);
+    }
 
+    @Override
+    public String toString() {
+        String resultado = "";
 
+        for(T object: pila){
+            resultado += "\nElemento: " + object.toString();
+        }
 
-
-
+        return resultado;
+    }
 }
