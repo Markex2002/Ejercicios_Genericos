@@ -29,7 +29,6 @@ public class MatrizGenerica<T> {
         return elemento;
     }
 
-
     //Metodo para obtener el numero de filas del Array
     public int filas(){
         return matriz.length;
@@ -40,14 +39,18 @@ public class MatrizGenerica<T> {
     }
 
 
+    @Override
+    public String toString() {
+        String resultado = "";
 
+        for (int i = 0; i < matriz.length; i++) {
+            resultado += "\nFila " + i + ": ";
 
+            for (int j = 0; j < matriz[i].length; j++) {
+                resultado += " " + matriz[i][j];
+            }
+        }
 
-
-
-
-
-
-
-
+        return resultado;
+    }
 }
