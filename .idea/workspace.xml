@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f56edde-a547-4308-861b-0f87f6a66050" name="Changes" comment="Comienzo Ejercicio">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ListaOrdenada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ListaOrdenadaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MatrizGenerica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MatrizGenerica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MatrizGenericaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MatrizGenericaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ListaOrdenada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ListaOrdenada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ListaOrdenadaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ListaOrdenadaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,16 +53,6 @@
   }
 }</component>
   <component name="RunManager" selected="JUnit.ListaOrdenadaTest.indexOfTest">
-    <configuration name="ListaOrdenadaTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Ejercicios_Genericos" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ListaOrdenadaTest" />
-      <option name="METHOD_NAME" value="get" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ListaOrdenadaTest.getTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ejercicios_Genericos" />
       <option name="PACKAGE_NAME" value="" />
@@ -105,13 +93,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ListaOrdenadaTest.sizeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ejercicios_Genericos" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ListaOrdenadaTest" />
+      <option name="METHOD_NAME" value="sizeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ListaOrdenadaTest.indexOfTest" />
-        <item itemvalue="JUnit.ListaOrdenadaTest.getTest" />
         <item itemvalue="JUnit.ListaOrdenadaTest.removeTest" />
+        <item itemvalue="JUnit.ListaOrdenadaTest.getTest" />
         <item itemvalue="JUnit.ListaOrdenadaTest.isEmptyTest" />
-        <item itemvalue="JUnit.ListaOrdenadaTest.get" />
+        <item itemvalue="JUnit.ListaOrdenadaTest.sizeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -126,9 +124,6 @@
       <workItem from="1696236058929" duration="2660000" />
       <workItem from="1696243703708" duration="5214000" />
       <workItem from="1696400775220" duration="6236000" />
-      <workItem from="1696518005000" duration="59000" />
-      <workItem from="1696518076894" duration="37000" />
-      <workItem from="1696518122659" duration="5161000" />
     </task>
     <task id="LOCAL-00001" summary="Comienzo Ejercicio">
       <option name="closed" value="true" />

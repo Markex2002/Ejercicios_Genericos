@@ -1,8 +1,7 @@
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.LinkedHashSet;
+import java.util.Collections;
 
-public class ListaOrdenada<E extends Comparable> {
+public class ListaOrdenada<E extends Comparable<E>> {
     //ATRIBUTOS
     private ArrayList<E> lista;
 
@@ -24,6 +23,7 @@ public class ListaOrdenada<E extends Comparable> {
     //Añadimos un elemento a la lista, ya que implementa comparable, estara ordenado
     public void add (E o){
         lista.add(o);
+        Collections.sort(lista);
     }
 
     //Devolvemos un valor segun su Index
